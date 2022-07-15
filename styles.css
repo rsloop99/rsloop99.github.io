@@ -1,0 +1,166 @@
+    /* HTML Reset */
+    a, div, h1, p
+    {
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+
+    p
+    {
+        line-height: 30px;
+        letter-spacing: 3px;
+        column-count: 2;
+        column-gap: 90px;
+    }
+    
+    h1
+    {
+        color: orange
+    }
+
+    text
+    {
+        letter-spacing: 3px;
+    }
+
+    .ProPic  /* GOOD */
+    {
+        display: flex;
+        padding-top: 5%;
+        width: 25%;
+        border: 0;
+        border-radius: 150px; 
+    }
+
+    .ContactInfo
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* .email
+    {
+        text-align: center;
+    }
+
+    .phone
+    {
+        text-align: center;
+    } */
+
+
+    .NavBar
+    {
+        background-color: rgb(203, 203, 203);
+        width: 100%;
+        display: inline-block;
+    }
+
+    .NavBar li 
+    {
+        margin: 0;
+        padding: 0;
+
+        display: inline-block;
+        text-align: center;
+        width: 12.5%;
+
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 2px;
+
+        border: 1px solid black;
+        border-radius: 8px;
+
+        
+        color: black;
+        letter-spacing: 3px
+    }
+
+    .NavBar li a:hover 
+    {
+        text-decoration: underline;
+        background-color: rgb(207, 150, 43);
+    }
+        
+    .InventionPic
+    {
+        float: left;
+        object-fit: cover;
+        width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* div .error{
+        Targets all .error's inside of a Div
+    }
+
+    div.error{
+        Targets all div's with class "error"
+    }
+
+    a[href]{
+        Targets all a's with an href inside
+    }
+
+    a[href="google.com"]{
+        Targets all a's with an href=google.com
+    }
+
+    #MyFavPic{
+        Only targets the element with id="MyFavPic"
+    }
+
+    div p a{
+        Only targets a's that are inside of p's that are inside of div's
+
+        a{} AND p{} AND div{}
+
+        div{
+            p{
+                a{} <-----
+            }
+        }
+    }
+
+    div, p, a{
+        Targets ALL div, p, and a's
+
+        div{} OR p{} OR a{}
+    }
+
+    a[href*="google"]{
+        Targets "a" with an href that INCLUDES "google"
+    }
+
+    a[href$=".com"]{
+        Targets all "a" with an href that ENDS in ".com"
+    } 
+
+    p{
+         Inherits specific attributes from Parent
+    
+        border: inherit;
+        color:  inherit;
+    } 
+
+    - z-index
+    - em attributes 
+
+
+    a .NavBar{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;  dynamic margin  */
+
+    

@@ -1,0 +1,141 @@
+/* --------- Contact Banner ----------- */
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.flexbox-item {
+  flex-shrink: 0;
+  margin: 10px;
+  background-color: white;
+}
+
+.flexbox-item-1 {
+  flex-grow: 1;
+}
+
+.flexbox-item-2 {
+  background-color: white;
+  padding-top: 5%;
+  border: 0;
+  border-radius: 150px;
+  height: auto;
+
+  width: 200px;
+  max-width: 300px;
+}
+
+.flexbox-item-3 {
+  flex-grow: 1;
+}
+
+.contactInfo {
+  position: relative;
+  margin-left: 30px;
+  top: 50%;
+  line-height: 30px;
+}
+
+#MyName {
+  position: relative;
+  font-size: 40px;
+  margin-bottom: 20px;
+  left: -20px;
+
+  text-decoration: underline;
+}
+
+/* --------- NavBar ----------- */
+.navbar-container {
+  width: 90vw;
+  justify-content: center;
+  border: 3px solid black;
+  min-height: 20px;
+  display: flex;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-item {
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar-item a:hover {
+  text-decoration: underline;
+}
+
+/* --------------- About Me ----------------- */
+
+/* ------------- Content ------------- */
+
+.Content-Flexbox {
+  border: 1px solid black;
+  width: calc(90vw - 100px);
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  max-width: 1200px;
+}
+
+.Content-Flexbox > * {
+  border: 1px solid green;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.AboutMe {
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.AboutMe h2 {
+  margin: 10px;
+}
+
+.AboutMe div {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* -7px comes from 5px (50% of the parents padding) + 2px (to account for the 1px border on each side)  */
+.row2left {
+  width: calc(40% - 7px);
+  object-fit: scale-down;
+  margin-left: calc(0.1 * calc(100% - calc(60% - 7px)));
+}
+
+.row2right {
+  width: calc(50% - 7px);
+}
+
+.row3left {
+  width: calc(50% - 7px);
+}
+
+.row3right {
+  width: calc(40% - 7px);
+  object-fit: scale-down;
+  margin-right: calc(0.1 * calc(100% - calc(60% - 7px)));
+}
+
+.mapImage {
+  width: 50%;
+  height: auto;
+}

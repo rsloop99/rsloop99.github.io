@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles2.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>This is a title</title>
+  </head>
+  <body>
+    <!-- ----------- Contact Banner ------------  -->
+    <div class="flexbox-container">
+      <div class="flexbox-item flexbox-item-1"></div>
+      <img
+        class="flexbox-item flexbox-item-2"
+        src="Images/Mugshot.png"
+        alt="A Wonderful Image of Ryan Sloop"
+      />
+      <div class="flexbox-item flexbox-item-3">
+        <div class="contactInfo">
+          <div id="MyName">Ryan Sloop</div>
+          <div>908-420-8521</div>
+          <div>rsloop99@gmail.com</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------- Nav Bar ------------  -->
+    <div class="navbar-container">
+      <div class="navbar-item navbar-item-1">My Story</div>
+      <div class="navbar-item navbar-item-2">My Resume</div>
+      <div class="navbar-item navbar-item-3"><a href="Projects.html">
+        Projects</a></div>
+    <div class="navbar-item navbar-item-4"><a href="https://www.linkedin.com/in/ryan-sloop" target="_blank">
+          LinkedIn</a></div>
+      </div>
+
+      <div class="navbar-item navbar-item-5">Email Me!</div>
+    </div>
+
+    <!-- --------------- Content ----------------- -->
+
+    <div class="Content-Flexbox">
+      <div class="AboutMe">
+        <h2>About Me</h2>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam placeat
+          nemo nobis tempora harum. Minus ducimus quasi veritatis magnam
+          laudantium fuga a ratione, officiis eos, saepe sapiente quibusdam
+          temporibus, perspiciatis sit cum qui quidem reprehenderit ut maiores
+          earum vitae? Doloribus incidunt voluptatibus aspernatur quod quisquam
+          accusamus repellendus vitae quos reiciendis!
+        </div>
+      </div>
+      <img
+        class="row2left"
+        src="Images/Drafting_Photoshoot12.jpg"
+        alt="Engineer Designing Invention on Desk"
+      />
+
+      <div class="row2right">
+        <h2>Prototypes & Inventions</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto
+        obcaecati fuga a error reprehenderit. Aliquam dignissimos cupiditate
+        veritatis atque accusamus nostrum facilis assumenda doloremque modi,
+        recusandae delectus ullam error earum voluptatum reprehenderit a dolor
+        rerum nam sed. Aspernatur exercitationem molestias iste optio
+        dignissimos fuga, eum incidunt asperiores officia corporis?
+      </div>
+      <div class="row3left">
+        <h2>Expertise</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi
+        laboriosam quas sed incidunt a reprehenderit tempora ratione iusto
+        consequuntur explicabo, facilis pariatur. Ad modi ea cupiditate qui,
+        ratione natus laborum optio maxime vel temporibus itaque deleniti
+        corrupti! Suscipit aspernatur aliquid voluptatum nulla quaerat maiores
+        itaque sunt cum, quidem quos!
+      </div>
+      <div class="row3right">Hi I'm child 3</div>
+    </div>
+
+    <script type="text/javascript">
+      fetch("https://localhost:7231/WeatherForecast")
+        .then((res) => res.json())
+        .then((res) => {
+          const el = document.createElement("h1");
+          el.textContent = res[0].summary;
+          document.body.append(el);
+        });
+    </script>
+  </body>
+</html>
